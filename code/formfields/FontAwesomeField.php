@@ -30,7 +30,7 @@ class FontAwesomeField extends TextField
         $this->addExtraClass('form-control icp icp-auto');
 
         // Libraries
-        Requirements::css('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
+        Requirements::css('https://use.fontawesome.com/releases/v'.self::config()->get('version').'/css/all.css');
         Requirements::css(FONT_AWESOME_DIR . '/client/dist/css/lib/fontawesome-iconpicker.min.css');
         Requirements::javascript(FONT_AWESOME_DIR . '/client/dist/js/lib/fontawesome-iconpicker.min.js');
 
