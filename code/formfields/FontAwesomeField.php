@@ -10,7 +10,7 @@ use SilverStripe\View\Requirements;
  */
 class FontAwesomeField extends TextField
 {
-    private static $version = '5.0.8';
+    private static $version = '5.12.0';
 
     /**
      * @return string
