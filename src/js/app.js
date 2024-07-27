@@ -32,7 +32,11 @@ import IconPicker from 'vanilla-icon-picker'
           //         url: 'https://git.homegu.com/raw/iconify/icon-sets/master/json/academicons.json'
           //     }
           // ]
-          iconSource: [],
+          iconSource: [
+            'FontAwesome Brands 6',
+            'FontAwesome Solid 6',
+            'FontAwesome Regular 6',
+          ],
 
           // Close icon picker modal when icon is selected
           // If is `false` save button appear
