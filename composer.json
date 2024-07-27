@@ -23,7 +23,7 @@
     "extra": {
         "installer-name": "font-awesome-field",
         "expose": [
-            "client/dist"
+            "dist"
         ]
     }
 }
