@@ -31,12 +31,8 @@ class FontAwesomeField extends TextField
 
         // Libraries
         Requirements::css('https://use.fontawesome.com/releases/v'.self::config()->get('version').'/css/all.css');
-        Requirements::css(FONT_AWESOME_DIR . '/client/dist/css/lib/fontawesome-iconpicker.min.css');
-        Requirements::javascript(FONT_AWESOME_DIR . '/client/dist/js/lib/fontawesome-iconpicker.min.js');
-
-        // Module
-        Requirements::css(FONT_AWESOME_DIR . '/client/dist/css/font-awesome-module.css');
-        Requirements::javascript(FONT_AWESOME_DIR . '/client/dist/js/font-awesome-module.js');
+        Requirements::css(FONT_AWESOME_DIR . '/dist/css/app.css');
+        Requirements::javascript(FONT_AWESOME_DIR . '/dist/js/app.js');
 
         Requirements::set_force_js_to_bottom(true);
 

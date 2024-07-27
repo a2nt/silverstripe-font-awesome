@@ -1,0 +1,13 @@
+.icon-picker {
+    &-modal__content{
+        .icon-element {
+            i,
+            svg {
+                color: inherit;
+            }
+        }
+    }
+    &-modal__dialog {
+        min-width: 400px;
+    }
+}

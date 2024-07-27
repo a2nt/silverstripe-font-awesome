@@ -1,9 +1,9 @@
 'use strict'
 
-import '../scss/app.scss'
-
 import 'vanilla-icon-picker/src/scss/themes/icon-picker.bootstrap-5.scss'
 import IconPicker from 'vanilla-icon-picker'
+
+import '../scss/app.scss'
 
 (function($) {
   $.entwine(($) => {
